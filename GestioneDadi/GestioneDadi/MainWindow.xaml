@@ -9,10 +9,10 @@
     <Grid>
         <Image Margin="45,41,352,178" Source="Image1.png" Stretch="Fill"/>
 
-        <Button x:Name="btnStart" Content="Inizia" HorizontalAlignment="Left" Margin="45,276,0,0" VerticalAlignment="Top" Width="395" Height="46" Click="btnStart_Click"/>
+        <Button x:Name="btnStart" Content="Inizia" HorizontalAlignment="Left" Margin="45,288,0,0" VerticalAlignment="Top" Width="395" Height="46" Click="btnStart_Click"/>
         <Image x:Name="imgDado1" HorizontalAlignment="Left" Height="80" Margin="294,161,0,0" VerticalAlignment="Top" Width="80"/>
         <Image x:Name="imgDado2" HorizontalAlignment="Left" Height="80" Margin="112,161,0,0" VerticalAlignment="Top" Width="80"/>
-        <Button x:Name="btnStop" Content="Ferma" HorizontalAlignment="Left" Height="54" Margin="45,342,0,0" VerticalAlignment="Top" Width="395"/>
+        <Button x:Name="btnStop" Content="Ferma" HorizontalAlignment="Left" Height="46" Margin="45,350,0,0" VerticalAlignment="Top" Width="395"/>
         <ListBox x:Name="lstNum" HorizontalAlignment="Left" Height="316" Margin="486,80,0,0" VerticalAlignment="Top" Width="277"/>
         <Label Content="Lista numeri usciti" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="486,41,0,0" VerticalAlignment="Top" Width="277" FontSize="18" Height="34" FontFamily="Ink Free"/>
 
