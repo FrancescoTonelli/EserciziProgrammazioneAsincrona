@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestioneDadi"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Lotteria degli scontrini" Height="450" Width="800">
     <Grid>
         <Image Margin="45,41,352,178" Source="Image1.png" Stretch="Fill"/>
 
