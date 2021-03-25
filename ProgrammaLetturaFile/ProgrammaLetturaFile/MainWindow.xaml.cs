@@ -23,12 +23,15 @@ namespace ProgrammaLetturaFile
     public partial class MainWindow : Window
     {
         string path;
+        int i;
+        bool blocco;
         public MainWindow()
         {
             InitializeComponent();
             progBar.Visibility = Visibility.Hidden;
             lbl_.Visibility = Visibility.Hidden;
             path = @"./Data.txt";
+            blocco = false;
         }
 
         private void btnCount_Click(object sender, RoutedEventArgs e)
@@ -54,6 +57,13 @@ namespace ProgrammaLetturaFile
                     {
                         caratteriNoSpazi += g.Length;
                     }
+                    blocco = true;
+                    int i = 100;
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        progBar.Value = i;
+                        lblPrc.Content = i;
+                    }));
 
                     this.Dispatcher.BeginInvoke(new Action(() =>
                     {
@@ -64,11 +74,26 @@ namespace ProgrammaLetturaFile
             });
         }
 
+        Random r;
+
         private async void Progresso()
         {
             await Task.Run(() =>
             {
-                
+                r = new Random();
+                for (int i = 0; i < 100 && !blocco; i += r.Next(1, 10))
+                {
+                    if(i >= 100)
+                    {
+                        i = 99;
+                    }
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        progBar.Value = i;
+                        lblPrc.Content = i;
+                    }));
+                    Thread.Sleep(TimeSpan.FromMilliseconds(300));
+                }
 
             });
         }
