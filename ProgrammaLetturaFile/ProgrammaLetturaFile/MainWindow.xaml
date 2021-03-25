@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ProgressBar x:Name="progBar" HorizontalAlignment="Left" Height="28" Margin="29,208,0,0" VerticalAlignment="Top" Width="735"/>
+        <Label Content="Conta caratteri" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="90" Margin="29,20,0,0" VerticalAlignment="Top" Width="633" FontSize="72" FontFamily="Ink Free" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="664,21,0,0" VerticalAlignment="Top" Width="100" Source="book icon.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="8.991"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="100" Margin="46,282,0,0" VerticalAlignment="Top" Width="100" Source="graduation-scroll.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="97.196"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button x:Name="btnCount" Content="Conta" HorizontalAlignment="Left" Margin="210,133,0,0" VerticalAlignment="Top" Width="262" Height="35" Click="btnCount_Click"/>
+
     </Grid>
 </Window>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace ProgrammaLetturaFile
 {
@@ -20,9 +21,34 @@ namespace ProgrammaLetturaFile
     /// </summary>
     public partial class MainWindow : Window
     {
+        string path;
         public MainWindow()
         {
             InitializeComponent();
+            progBar.Visibility = Visibility.Hidden;
+            path = @"./Data.txt";
+        }
+
+        private void btnCount_Click(object sender, RoutedEventArgs e)
+        {
+            progBar.Visibility = Visibility.Visible;
+            Prova();
+            
+        }
+
+        public async void Prova()
+        {
+            await Task.Run(() =>
+            {
+                for (int i = 0; i < 101; i++)
+                {
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        progBar.Value = i;
+                    }));
+                    Thread.Sleep(TimeSpan.FromMilliseconds(500));
+                }
+            });
         }
     }
 }

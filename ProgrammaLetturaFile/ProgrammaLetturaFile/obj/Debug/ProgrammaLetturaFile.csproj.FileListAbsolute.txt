@@ -1,0 +1,15 @@
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\bin\Debug\ProgrammaLetturaFile.exe.config
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\bin\Debug\ProgrammaLetturaFile.exe
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\bin\Debug\ProgrammaLetturaFile.pdb
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile.csprojAssemblyReference.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\MainWindow.g.cs
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\App.g.cs
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile_MarkupCompile.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile_MarkupCompile.lref
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\MainWindow.baml
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile.g.resources
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile.Properties.Resources.resources
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile.csproj.GenerateResource.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile.csproj.CoreCompileInputs.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile.exe
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\ProgrammaLetturaFile\ProgrammaLetturaFile\obj\Debug\ProgrammaLetturaFile.pdb
