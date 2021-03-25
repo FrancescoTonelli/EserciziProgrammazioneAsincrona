@@ -51,13 +51,25 @@ namespace GestioneDadi
             imm4 = new BitmapImage(uri4);
             imm5 = new BitmapImage(uri5);
             imm6 = new BitmapImage(uri6);
+
+            stop = true;
         }
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-            stop = false;
-            btnStart.IsEnabled = false;
-            Sorteggia();
+            if (stop)
+            {
+                stop = false;
+                btnStart.Content = "Ferma";
+                lblRis.Content = "";
+                Sorteggia();
+            }
+            else
+            {
+                stop = true;
+                btnStart.Content = "Inizia";
+                lblRis.Content = i + " + " + l + " = " + (i + l);
+            }
         }
 
         public async void Sorteggia()
@@ -125,7 +137,7 @@ namespace GestioneDadi
                         }
                     }));
 
-                    Thread.Sleep(TimeSpan.FromMilliseconds(500));
+                    Thread.Sleep(TimeSpan.FromMilliseconds(1));
                 }
             });
         }
