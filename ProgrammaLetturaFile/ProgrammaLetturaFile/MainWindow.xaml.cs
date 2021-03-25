@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Threading;
+using System.IO;
 
 namespace ProgrammaLetturaFile
 {
@@ -26,28 +27,49 @@ namespace ProgrammaLetturaFile
         {
             InitializeComponent();
             progBar.Visibility = Visibility.Hidden;
+            lbl_.Visibility = Visibility.Hidden;
             path = @"./Data.txt";
         }
 
         private void btnCount_Click(object sender, RoutedEventArgs e)
         {
             progBar.Visibility = Visibility.Visible;
-            Prova();
-            
+            lbl_.Visibility = Visibility.Visible;
+            btnCount.Visibility = Visibility.Hidden;
+            Conta();
+            Progresso();
         }
 
-        public async void Prova()
+        private async void Conta()
         {
             await Task.Run(() =>
             {
-                for (int i = 0; i < 101; i++)
+                using (StreamReader sr = new StreamReader(path))
                 {
+                    string text = sr.ReadToEnd();
+                    double caratteri = text.Length;
+                    string[] c = text.Split(' ');
+                    double caratteriNoSpazi = 0;
+                    foreach(string g in c)
+                    {
+                        caratteriNoSpazi += g.Length;
+                    }
+
                     this.Dispatcher.BeginInvoke(new Action(() =>
                     {
-                        progBar.Value = i;
+                        lblTot.Content = "Caratteri totali: " + caratteri;
+                        lblNoSp.Content = "Senza spazi: " + caratteriNoSpazi;
                     }));
-                    Thread.Sleep(TimeSpan.FromMilliseconds(500));
                 }
+            });
+        }
+
+        private async void Progresso()
+        {
+            await Task.Run(() =>
+            {
+                
+
             });
         }
     }

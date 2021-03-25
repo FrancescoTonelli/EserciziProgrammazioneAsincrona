@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label x:Name="lbl_" Content="%" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="721,241,0,0" VerticalAlignment="Top" Width="43"/>
+
         <ProgressBar x:Name="progBar" HorizontalAlignment="Left" Height="28" Margin="29,208,0,0" VerticalAlignment="Top" Width="735"/>
         <Label Content="Conta caratteri" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="90" Margin="29,20,0,0" VerticalAlignment="Top" Width="633" FontSize="72" FontFamily="Ink Free" FontWeight="Bold"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="664,21,0,0" VerticalAlignment="Top" Width="100" Source="book icon.png" RenderTransformOrigin="0.5,0.5">
@@ -30,6 +32,9 @@
             </Image.RenderTransform>
         </Image>
         <Button x:Name="btnCount" Content="Conta" HorizontalAlignment="Left" Margin="210,133,0,0" VerticalAlignment="Top" Width="262" Height="35" Click="btnCount_Click"/>
+        <Label x:Name="lblPrc" Content="" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="705,241,0,0" VerticalAlignment="Top" Width="43"/>
+        <Label x:Name="lblTot" Content="" HorizontalAlignment="Left" Margin="291,299,0,0" VerticalAlignment="Top" Width="371" Height="42" FontSize="24" FontFamily="Ink Free"/>
+        <Label x:Name="lblNoSp" Content="" HorizontalAlignment="Left" Margin="345,341,0,0" VerticalAlignment="Top" Width="437" Height="42" FontSize="24" FontFamily="Ink Free"/>
 
     </Grid>
 </Window>
