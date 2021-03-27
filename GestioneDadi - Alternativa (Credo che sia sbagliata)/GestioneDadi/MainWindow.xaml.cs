@@ -63,7 +63,6 @@ namespace GestioneDadi
                 btnStart.Content = "Ferma";
                 lblRis.Content = "";
                 Sorteggia();
-                GiraDadi();
             }
             else
             {
@@ -91,25 +90,9 @@ namespace GestioneDadi
                         lstNum.Items.Add(v);
                     }));
 
-                    
-
-                    Thread.Sleep(TimeSpan.FromSeconds(2));
-                }
-            });
-        }
-
-        public async void GiraDadi()
-        {
-            await Task.Run(()=>
-            {
-                while (!stop)
-                {
                     this.Dispatcher.BeginInvoke(new Action(() =>
                     {
-                        int n = r.Next(1, 7);
-                        int m = r.Next(1, 7);
-
-                        switch (n)
+                        switch (i)
                         {
                             case 1:
                                 imgDado1.Source = imm1;
@@ -131,7 +114,7 @@ namespace GestioneDadi
                                 break;
                         }
 
-                        switch (m)
+                        switch (l)
                         {
                             case 1:
                                 imgDado2.Source = imm1;
@@ -153,57 +136,9 @@ namespace GestioneDadi
                                 break;
                         }
                     }));
-                    
+
                     Thread.Sleep(TimeSpan.FromMilliseconds(1));
                 }
-
-                this.Dispatcher.BeginInvoke(new Action(() =>
-                {
-                    switch (i)
-                    {
-                        case 1:
-                            imgDado1.Source = imm1;
-                            break;
-                        case 2:
-                            imgDado1.Source = imm2;
-                            break;
-                        case 3:
-                            imgDado1.Source = imm3;
-                            break;
-                        case 4:
-                            imgDado1.Source = imm4;
-                            break;
-                        case 5:
-                            imgDado1.Source = imm5;
-                            break;
-                        case 6:
-                            imgDado1.Source = imm6;
-                            break;
-                    }
-
-                    switch (l)
-                    {
-                        case 1:
-                            imgDado2.Source = imm1;
-                            break;
-                        case 2:
-                            imgDado2.Source = imm2;
-                            break;
-                        case 3:
-                            imgDado2.Source = imm3;
-                            break;
-                        case 4:
-                            imgDado2.Source = imm4;
-                            break;
-                        case 5:
-                            imgDado2.Source = imm5;
-                            break;
-                        case 6:
-                            imgDado2.Source = imm6;
-                            break;
-                    }
-                }));
-                
             });
         }
     }

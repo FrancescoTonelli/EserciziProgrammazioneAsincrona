@@ -13,3 +13,18 @@ C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi\GestioneDadi
 C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi\GestioneDadi\obj\Debug\GestioneDadi.csproj.CoreCompileInputs.cache
 C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi\GestioneDadi\obj\Debug\GestioneDadi.exe
 C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi\GestioneDadi\obj\Debug\GestioneDadi.pdb
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\bin\Debug\GestioneDadi.exe.config
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\bin\Debug\GestioneDadi.exe
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\bin\Debug\GestioneDadi.pdb
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi.csprojAssemblyReference.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\MainWindow.g.cs
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\App.g.cs
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi_MarkupCompile.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi_MarkupCompile.lref
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\MainWindow.baml
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi.g.resources
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi.Properties.Resources.resources
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi.csproj.GenerateResource.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi.csproj.CoreCompileInputs.cache
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi.exe
+C:\Users\tonbr\Desktop\EserciziProgrammazioneAsincrona\GestioneDadi - Alternativa\GestioneDadi\obj\Debug\GestioneDadi.pdb
